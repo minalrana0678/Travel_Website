@@ -1,0 +1,139 @@
+
+
+@media screen and (max-width:570px) {
+    nav{
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    nav ul{
+        flex-direction: column;
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        gap: 5px;
+        margin-top: 10px;
+    }
+    label > i{
+        color: wheat;
+        width: 20px;
+        height: 20px;
+    }
+    .menu{
+        width: 100%;
+        max-height: 0;
+        overflow: hidden;
+    }
+    
+    label{
+        display: inline-flex;
+    }
+    .input_details{
+        flex-direction: column;
+        width: 100%;
+        height: fit-content;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .banner_description, .banner_title{
+        width: 90%;
+        top: -3rem;
+        margin: 0 auto;
+    }
+    .banner_details{
+        height: 100%;
+        position: relative;
+        margin: 0 auto;
+        margin-top: 1.2rem;
+    }
+    .input_z{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        /* background-color: #a6a6b5; */
+        top: 0;
+        z-index: -1;
+        left: 0;
+        opacity: 0.5;
+        border-radius: 5px;
+    }
+    input, .banner_button{
+        width: 80%;
+        margin: 0 auto;
+        
+    }
+    .banner_button{
+        background-image: url(../Images/Fram.png);
+        background-repeat: no-repeat;
+        background-position-x: 90px;
+        background-position-y: 9px;
+        background-size: 22px;
+        padding-left: 1rem;
+        }
+        
+    
+    .popular_section{
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        padding:0 5px;
+        
+    }
+    .population_details{
+        margin-top: 1rem;
+        width: 100%;
+    }
+    .rectangle_four{
+        margin-top: 2rem;
+        height: 100%;
+        width:100%;
+       
+    }
+    .chose_your_destenestion{
+        text-align: center;
+        justify-content: center;
+        height: auto;
+        margin: 0 auto;
+        margin-top: 80px;
+    }
+    .image-new, .image_new, .image-name{
+        flex-direction: column;
+    }
+    .third_section{
+        width: 100%;
+        height: auto;
+    }
+    .card_details{
+        gap: 20px;
+        flex-direction: column;
+        height: fit-content;
+    }
+    .last_card{
+        flex-direction: column;
+        
+    }
+    .card_one, .card_two, .card_three{
+        height: auto;
+        width: 100%;
+    }
+    .card_detail{
+        width: auto;
+        text-align: center;
+    }
+    .four_section{
+        flex-direction: column;
+        width: 100%;
+    }
+    .form_file, .rectangle_eight{
+        width: 100%;
+    }
+    .save_money{
+        margin-left: 155px;
+        margin-top: -140px;
+    }
+    .footer_peragaraph{
+        width: 80%;
+    }
+
+    
+}
