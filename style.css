@@ -178,12 +178,12 @@ input{
 }
 
 .input{
-    background-image: url('../Images/Frame.svg');
+    background-image: url('./Images/Frame.svg');
     background-repeat: no-repeat;
     background-position: right ;
 }
 .banner_button{
-background-image: url(../Images/Fram.png);
+background-image: url('./Images/Fram.png');
 background-repeat: no-repeat;
 background-position-x: 9px;
 background-position-y: 9px;
