@@ -663,6 +663,7 @@ margin-top: 1rem;
     .save_money{
         width: 50%;
         padding: 10px;
+        height: auto;
         margin-left: 135px;
         margin-top: -140px;
     }
